@@ -2,6 +2,8 @@
 /* ===== Website Block Schedulinig Application ===== */
 /* ================================================= */
 
+const fs = require('fs');
+
 // Make a variable to store path of hosts file
 const filePath =  "hosts"; 
 // Note* If you are a windows user, your file path should be C:\Windows\System32\drivers\etc\hosts
@@ -27,9 +29,39 @@ let blocker = () => {
     let date = new Date ();
     // Compare whether the current time is free time or block time
     let hours = date.getHours();
-    // Blocking our website from 2pm to 4pm
-    if(hours >= 14 && hours < 16) {
+    // Blocking our website from 2pm to 5pm
+    if(hours >= 14 && hours < 17) {
         console.log('Time to block websites');
+        fs.readFile(filePath, (err, data) => {
+            // Throw error in case something went wrong!
+            if (err) {
+                return console.log(err);
+            }
+
+            // Convert the fetched data to string
+            fileContents = data.toString();
+
+            /**
+             * Check whether each website in the list exist in the list, 
+             * If it exists, ignore,
+             * else, write the websites and redirect address in the file
+             */
+            for(let i=0;i<websites.length;i++) {
+                let addWebsite = "\n" + redirectPath + " " + websites[i];
+                if (fileContents.indexOf(addWebsite) < 0) {
+                    console.log('Website: ' + addWebsite + ' is not present');
+                    fs.appendFile(filePath, addWebsite, (err) => {
+                        if (err) {
+                            return console.log('Error: ', err);
+                        }
+                        console.log('File Updated Successfully');
+                    });
+                } else {
+                    console.log('Website: ' + addWebsite + ' is present');
+                }
+            }
+
+        });
     } else {
         console.log('Time to unblock websites');
     }
