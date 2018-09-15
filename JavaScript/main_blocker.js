@@ -5,7 +5,7 @@
 const fs = require('fs');
 
 // Make a variable to store path of hosts file
-const filePath =  "hosts"; 
+const filePath =  "/etc/hosts"; 
 // Note* If you are a windows user, your file path should be C:\Windows\System32\drivers\etc\hosts
 /**
  * File path: C:\Windows\System32\drivers\etc\hosts
@@ -29,8 +29,8 @@ let blocker = () => {
     let date = new Date ();
     // Compare whether the current time is free time or block time
     let hours = date.getHours();
-    // Blocking our website from 2pm to 5pm
-    if(hours >= 14 && hours < 17) {
+    // Blocking our website from 2pm to 6pm
+    if(hours >= 14 && hours < 18) {
         console.log('Time to block websites');
         fs.readFile(filePath, (err, data) => {
             // Throw error in case something went wrong!
@@ -64,6 +64,45 @@ let blocker = () => {
         });
     } else {
         console.log('Time to unblock websites');
+
+        /**
+         * Declare and empty string, 
+         * We will keep on appending the lines which do not contain our websites to this string
+         * At the end, we will replace the file contents by this string
+         */
+        let completeContent = '';
+
+        // Read  file line by line
+        fs.readFileSync(filePath)
+            .toString()
+            .split('\n')
+            .forEach((line) => {
+                // console.log(line);
+                let flag = 1;
+                // Loop through each website from website list
+                for (let i=0; i<websites.length; i++) {
+                    // Check whether the current line contains any blocked website
+                    if (line.indexOf(websites[i]) >= 0) {
+                        flag = 0;
+                        break;
+                    }
+                }
+
+                if (flag == 1) {
+                    if (line === '')
+                        completeContent += line;
+                    else
+                        completeContent += line + "\n";
+                }
+
+            });
+
+            // Replace the contents of file by completeContent
+            fs.writeFile(filePath, completeContent, (err) => {
+                if (err) {
+                    return console.log('Error!', err);
+                }
+            });
     }
 };
 
