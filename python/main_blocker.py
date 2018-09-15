@@ -8,7 +8,7 @@ websites = ["www.facebook.com", "facebook.com", "twitter.com", "www.twitter.com"
 # To make the script running all the time
 while True:
     if dt(dt.now().year, dt.now().month, dt.now().day, 18) < dt.now() <  dt(dt.now().year, dt.now().month, dt.now().day, 16):
-        print("Working Hours")
+        print("Time to block website!")
         # Open the hosts file
         with open(host_file_path, 'r+') as file:
             # Read the content and print it out on the terminal
@@ -27,5 +27,5 @@ while True:
                 if not any(website in line for website in websites):
                     file.write(line)
             file.truncate()
-        print("Fun hours")
-    time.sleep(5)
+        print("Websites are unblocked!")
+    time.sleep(10)
