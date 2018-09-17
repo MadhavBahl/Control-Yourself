@@ -98,11 +98,11 @@ let blocker = () => {
             });
 
             // Replace the contents of file by completeContent
-            fs.writeFile(filePath, completeContent, (err) => {
-                if (err) {
-                    return console.log('Error!', err);
-                }
-            });
+        fs.writeFile(filePath, completeContent, (err) => {
+            if (err) {
+                return console.log('Error!', err);
+            }
+        });
     }
 };
 
