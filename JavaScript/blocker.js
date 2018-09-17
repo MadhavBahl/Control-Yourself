@@ -18,7 +18,7 @@ const filePath =  "/etc/hosts";
 const redirectPath = "127.0.0.1";
 
 // List of websities to be blocked
-let websites = ["www.someRandomWebsite.com"];
+let websites = ["www.facebook.com", "facebook.com"];
 
 // Set delay (Time interval after which our script should execute)
 let delay = 10000; // 10 seconds
