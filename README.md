@@ -1,6 +1,35 @@
 # Control Yourself
 A Software to reduce your distraction caused by several non-productive websites
 
+## Prerequisites
+* Git
+* NodeJs
+
+## Getting Started
+Make sure that you have installed git and nodejs on your system.
+Make a fork of this repository.
+Open up the Terminal(or Git Bash) and navigate to the working directory and type the following command.
+
+```
+git clone https://github.com/[USERNAME}/Control-Yourself.git
+```
+
+Make sure to replace the {USERNAME} with your github username.
+
+Then run the following command to install all the dependencies.
+```
+npm install
+```
+Run the following command to fire up the application
+```
+npm start
+```
+
+
+
+## Join us at Gitter
+https://gitter.im/Control-Yourself/Lobby
+
 ## Steps to run the blocker.js
 
 Running the blocker is very simple. Just download the blocker.js file (inside JavaScript folder) and type in the following command through your terminal,
