@@ -1,7 +1,7 @@
 # Control Yourself
 A Software to reduce your distraction caused by several non-productive websites
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gitterHQ/gitter)
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Control-Yourself/Lobby)
 
 ## Prerequisites
 * Git
