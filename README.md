@@ -1,8 +1,8 @@
 # Control Yourself
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
-A Software to reduce your distraction caused by several non-productive websites
-
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Control-Yourself/Lobby)
+
+A Software to reduce your distraction caused by several non-productive websites
 
 ## Prerequisites
 * Git
