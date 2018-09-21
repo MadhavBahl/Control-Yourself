@@ -1,5 +1,5 @@
 # Control Yourself
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 A Software to reduce your distraction caused by several non-productive websites
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Control-Yourself/Lobby)
@@ -54,8 +54,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/32531173?v=4" width="100px;"/><br /><sub><b>Rajdeep Roy Chowdhury</b></sub>](https://github.com/Razdeep)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=Razdeep "Documentation") |
-| :---: |
+| [<img src="https://avatars2.githubusercontent.com/u/32531173?v=4" width="100px;"/><br /><sub><b>Rajdeep Roy Chowdhury</b></sub>](https://github.com/Razdeep)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=Razdeep "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/26179770?v=4" width="100px;"/><br /><sub><b>MADHAV BAHL</b></sub>](http://madhavbahl.tech/)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=MadhavBahlMD "Documentation") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
