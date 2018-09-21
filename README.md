@@ -13,7 +13,7 @@ Make a fork of this repository.
 Open up the Terminal(or Git Bash) and navigate to the working directory and type the following command.
 
 ```
-git clone https://github.com/[USERNAME}/Control-Yourself.git
+git clone https://github.com/{USERNAME}/Control-Yourself.git
 ```
 
 Make sure to replace the {USERNAME} with your github username.
