@@ -54,7 +54,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/32531173?v=4" width="100px;"/><br /><sub><b>Rajdeep Roy Chowdhury</b></sub>](https://github.com/Razdeep)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=Razdeep "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/26179770?v=4" width="100px;"/><br /><sub><b>MADHAV BAHL</b></sub>](http://madhavbahl.tech/)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=MadhavBahlMD "Documentation") |
+| [<img src="https://avatars2.githubusercontent.com/u/26179770?v=4" width="100px;"/><br /><sub><b>MADHAV BAHL</b></sub>](http://madhavbahl.tech/)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=MadhavBahlMD "Documentation") [📝](#blog-MadhavBahlMD "Blogposts") [💻](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=MadhavBahlMD "Code") [💡](#example-MadhavBahlMD "Examples") [🤔](#ideas-MadhavBahlMD "Ideas, Planning, & Feedback") [👀](#review-MadhavBahlMD "Reviewed Pull Requests") [✅](#tutorial-MadhavBahlMD "Tutorials") | [<img src="https://avatars2.githubusercontent.com/u/32531173?v=4" width="100px;"/><br /><sub><b>Rajdeep Roy Chowdhury</b></sub>](https://github.com/Razdeep)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=Razdeep "Documentation") [💻](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=Razdeep "Code") [🤔](#ideas-Razdeep "Ideas, Planning, & Feedback") |
 | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
