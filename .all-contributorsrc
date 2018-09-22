@@ -1,0 +1,31 @@
+{
+  "projectName": "Control-Yourself",
+  "projectOwner": "MadhavBahlMD",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "Razdeep",
+      "name": "Rajdeep Roy Chowdhury",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/32531173?v=4",
+      "profile": "https://github.com/Razdeep",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "MadhavBahlMD",
+      "name": "MADHAV BAHL",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26179770?v=4",
+      "profile": "http://madhavbahl.tech/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
+}
