@@ -5,7 +5,15 @@
 const fs = require('fs');
 
 // Make a variable to store path of hosts file
-const filePath =  "/etc/hosts"; 
+// const filePath =  "/etc/hosts"; 
+let filePath='';
+if(process.platform==='win32'){
+    filePath='C:\\Windows\\System32\\drivers\\etc\\hosts';
+}
+else{
+    filePath='/etc/hosts';
+}
+console.log('Detected Environment :',process.platform);
 // Note* If you are a windows user, your file path should be C:\Windows\System32\drivers\etc\hosts
 /**
  * File path: C:\Windows\System32\drivers\etc\hosts
