@@ -1,7 +1,17 @@
 import time
 from datetime import datetime as dt
+import platform
 
-host_file_path = "/etc/hosts"
+# Dynamically allotting host_file_path according to the Operating System
+host_file_path=''
+if platform.system()=='Linux':
+    host_file_path= '/etc/hosts'
+elif platform.system()=='Windows':
+    host_file_path= 'C:\Windows\System32\drivers\etc\hosts'
+else:
+    print('Caution: Error while detecting the platform.')
+    print('\tDetected Platform was',platform.system())
+
 redirect_path = "127.0.0.1"
 websites = ["www.facebook.com", "facebook.com", "twitter.com", "www.twitter.com"]
 
