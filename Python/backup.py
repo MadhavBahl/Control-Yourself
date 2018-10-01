@@ -1,23 +1,28 @@
 import platform
 import os
 
-# Backup would be stored in a hidden directory under Home
+''' Backup would be stored in the following locations
+    1. Linux: In ".ControlYourselfConfig" folder at the Home directory
+    2. Windows: In ".ControlYourselfConfig" folder at the Local Disk C
+'''
 bkpFolderPath='~' # Specifies Home directory
-bkpFolderName='/.ControlYourselfConfig'
-# Caution: Make include spaces inside the above strings
+bkpFolderName='.ControlYourselfConfig'
+# Caution: Make sure not to include spaces inside the above strings
 
 def backup():
     if platform.system()=='Linux':
         try:
-            os.system('mkdir '+bkpFolderPath+bkpFolderName)
-            os.system('sudo cp /etc/hosts '+bkpFolderPath+bkpFolderName)
+            bkpFolderPath='~' # Overriding the path
+            os.system('mkdir '+bkpFolderPath+'/'+bkpFolderName)
+            os.system('sudo cp /etc/hosts '+bkpFolderPath+'/'+bkpFolderName)
             print('File successfully backed up')
         except:
             print('Something went wrong')
     elif platform.system()=='Windows':
         try:
-            os.system('md '+bkpFolderPath+bkpFolderName)
-            os.system('copy C:\\Windows\\System32\\drivers\\etc\\hosts '+bkpFolderPath+bkpFolderName)
+            bkpFolderPath='C:' # Overriding the path
+            os.system('md '+bkpFolderPath+'\\'+bkpFolderName)
+            os.system('copy C:\\Windows\\System32\\drivers\\etc\\hosts '+bkpFolderPath+'\\'+bkpFolderName)
             print('File successfully backed up')
         except:
             print('Something went wrong')
@@ -27,13 +32,16 @@ def backup():
 def restore():
     if platform.system()=='Linux':
         try:
-            os.system('sudo cp '+bkpFolderPath+bkpFolderName+' /etc/')
+            bkpFolderPath='~' # Overriding the path
+            os.system('sudo cp '+bkpFolderPath+'/'+bkpFolderName+'/hosts'+' /etc/')
             print('File successfully restored')
         except:
             print('Something went wrong')
     elif platform.system()=='Windows':
         try:
-            os.system('copy '+bkpFolderPath+bkpFolderName+' C:\\Windows\\System32\\drivers\\etc\\')
+            # Doesn't work without adminstrative priviledges
+            bkpFolderPath='C:' # Overriding the path            
+            os.system('copy '+bkpFolderPath+'\\'+bkpFolderName+'\\hosts'+' C:\\Windows\\System32\\drivers\\etc\\')
             print('File successfully restored')
         except:
             print('Something went wrong')
@@ -43,14 +51,16 @@ def restore():
 def clearBackup():
     if platform.system()=='Linux':
         try:
-            os.system('sudo rm -r '+bkpFolderPath+bkpFolderName) # try not use the force flag
-            print('Custom back directory removed')
+            bkpFolderPath='~' # Overriding the path
+            os.system('sudo rm -r '+bkpFolderPath+'/'+bkpFolderName) # try not use the force flag
+            print('Custom backup directory removed')
         except:
             print('Something went wrong')
     elif platform.system()=='Windows':
         try:
-            os.system('del '+bkpFolderPath+bkpFolderName)
-            print('Custom back directory removed')
+            bkpFolderPath='C:' # Overriding the path 
+            os.system('del '+bkpFolderPath+'\\'+bkpFolderName)
+            print('Custom backup directory removed')
         except:
             print('Something went wrong')
 
