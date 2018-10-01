@@ -2,6 +2,13 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Control-Yourself/Lobby)
 
+[![GitHub issues](https://img.shields.io/github/issues/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/issues)
+[![GitHub forks](https://img.shields.io/github/forks/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/network)
+[![GitHub stars](https://img.shields.io/github/stars/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/stargazers)
+
+[![GitHub license](https://img.shields.io/github/license/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/blob/master/LICENSE)
+
+
 A Software to reduce your distraction caused by several non-productive websites
 
 ## Prerequisites
