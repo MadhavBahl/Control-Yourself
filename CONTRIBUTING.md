@@ -57,11 +57,8 @@ Ready to contribute? Here's how to set up `Control-Yourself` for local developme
 
     $ git clone git@github.com:MadhavBahlMD/Control-Yourself.git
 
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper
-   installed, this is how you set up your fork for local development::
+3. Install the dependencies
 
-    $ mkvirtualenv deezer-python
-    $ cd Control-Yourself/
     $ npm install
 
 4. Create a branch for local development::
