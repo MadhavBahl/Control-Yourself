@@ -34,6 +34,15 @@
         "code",
         "ideas"
       ]
-    }
+    },
+    {
+      "login": "Rajat",
+      "name": "Rajat Srivastava",
+      "avatar_url": "https://avatars2.githubusercontent.com/rajat19",
+      "profile": "https://github.com/rajat19",
+      "contributions": [
+        "doc",
+      ]
+    },
   ]
 }
