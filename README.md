@@ -5,9 +5,16 @@
 [![GitHub issues](https://img.shields.io/github/issues/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/issues)
 [![GitHub forks](https://img.shields.io/github/forks/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/network)
 [![GitHub stars](https://img.shields.io/github/stars/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/stargazers)
-
 [![GitHub license](https://img.shields.io/github/license/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/blob/master/LICENSE)
+[![HitCount](http://hits.dwyl.io/MadhavBahlMD/Control-Yourself.svg)](http://hits.dwyl.io/MadhavBahlMD/Control-Yourself)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/MadhavBahlMD/Control-Yourself/graphs/commit-activity)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://madhavbahlmd.tech/Control-Yourself/)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](http://madhavbahl.tech/contact/)
+[![GitHub license](https://img.shields.io/github/license/MadhavBahlMD/Control-Yourself.svg)](https://github.com/MadhavBahlMD/Control-Yourself/blob/master/LICENSE) 
 
+<hr />
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 A Software to reduce your distraction caused by several non-productive websites
 
