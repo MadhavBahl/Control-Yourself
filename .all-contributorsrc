@@ -36,13 +36,22 @@
       ]
     },
     {
-      "login": "Rajat",
+      "login": "rajat19",
       "name": "Rajat Srivastava",
       "avatar_url": "https://avatars2.githubusercontent.com/rajat19",
       "profile": "https://github.com/rajat19",
       "contributions": [
-        "doc",
+        "doc"
       ]
     },
+    {
+      "login": "reallinfo",
+      "name": "reallinfo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/36298335?v=4",
+      "profile": "https://github.com/reallinfo",
+      "contributions": [
+        "design"
+      ]
+    }
   ]
 }

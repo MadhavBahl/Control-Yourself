@@ -1,7 +1,7 @@
 <p align="left"><img src="logos/horizontalv2.png" alt="Control-Yourself" height="100px"></p>
 
 # Control Yourself
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Control-Yourself/Lobby)
 
 [![GitHub issues](https://img.shields.io/github/issues/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/issues)
@@ -68,10 +68,7 @@ Please take a backup of your hosts file (`/etc/hosts`) before running the script
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/26179770?v=4" width="100px;"/><br /><sub><b>MADHAV BAHL</b></sub>](http://madhavbahl.tech/)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=MadhavBahlMD "Documentation") [📝](#blog-MadhavBahlMD "Blogposts") [💻](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=MadhavBahlMD "Code") [💡](#example-MadhavBahlMD "Examples") [🤔](#ideas-MadhavBahlMD "Ideas, Planning, & Feedback") [👀](#review-MadhavBahlMD "Reviewed Pull Requests") [✅](#tutorial-MadhavBahlMD "Tutorials") | [<img src="https://avatars2.githubusercontent.com/u/32531173?v=4" width="100px;"/><br /><sub><b>Rajdeep Roy Chowdhury</b></sub>](https://github.com/Razdeep)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=Razdeep "Documentation") [💻](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=Razdeep "Code") [🤔](#ideas-Razdeep "Ideas, Planning, & Feedback") | [<img src="https://avatars2.githubusercontent.com/rajat19" width="100px;"/><br /><sub><b>Rajat</b></sub>](https://github.com/rajat19)<br />[📖](https://github.com/MadhavBahlMD/Control-Yourself/commits?author=rajat19 "Documentation") |
-| :---: | :---: | :---: |
+<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
