@@ -45,10 +45,6 @@ npm start
 ```
 
 
-
-## Join us at Gitter
-https://gitter.im/Control-Yourself/Lobby
-
 ## Steps to run the blocker.js
 
 Running the blocker is very simple. Just download the blocker.js file (inside JavaScript folder) and type in the following command through your terminal,
