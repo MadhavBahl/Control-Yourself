@@ -20,6 +20,6 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "all-contributors-cli": "^5.4.0",
-    "electron": "^2.0.0"
+    "electron": "^10.1.3"
   }
 }
