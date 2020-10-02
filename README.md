@@ -1,7 +1,7 @@
 <p align="left"><img src="logos/horizontalv2.png" alt="Control-Yourself" height="100px"></p>
 
 # Control Yourself
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Control-Yourself/Lobby)
 
 [![GitHub issues](https://img.shields.io/github/issues/MadhavBahlMD/Control-Yourself.svg?style=for-the-badge)](https://github.com/MadhavBahlMD/Control-Yourself/issues)
