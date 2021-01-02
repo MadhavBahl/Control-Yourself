@@ -1,3 +1,4 @@
+import json
 import time
 from datetime import datetime as dt
 import platform
@@ -13,7 +14,7 @@ else:
     print('\tDetected Platform was',platform.system())
 
 redirect_path = "127.0.0.1"
-websites = ["www.facebook.com", "facebook.com", "twitter.com", "www.twitter.com"]
+websites = json.load(open("data/websites.json"))
 
 # To make the script running all the time
 while True:
