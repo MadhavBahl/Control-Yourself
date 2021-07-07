@@ -3,17 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>Control Yourself</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Control Yourself</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-
+    <!-- <h1>Control Yourself</h1> -->
+      <div class="box">
+        <form action="" method="post">
+          <input type="text" placeholder="Enter website name" required>
+          <br><br>
+          <!-- <span>From</span> -->
+          <input class="spinbox" type="number" min="0" max="23" placeholder="from" required>
+          <!-- <span>To</span> -->
+          <input class="spinbox" type="number" min="0" max="23" placeholder="to" required>
+          <br>
+          <button id="block_btn">Block</button>
+        </form>
+      </div>
     <script>
       // You can also require other files to run in this process
-      require('./renderer.js')
+      // require('./renderer.js')
     </script>
   </body>
 </html>
